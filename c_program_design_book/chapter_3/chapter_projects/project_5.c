@@ -1,3 +1,13 @@
+/*
+  Write a program that estimates the temperature in a freezer (in °C) given the elapsed time
+  (hours) since a power failure. Assume that this temperature (T) is given by
+  4t2 T=—— – 20
+  where t is the time since the power failure. Your program should call a user-defined func- tion that displays a
+  description of the program’s purpose and should then prompt the user to enter how long it has been since the start of the power
+  failure in whole hours and min- utes. Note that you will need to convert the elapsed time into hours. For example, if the user
+  entered 2 30 (2 hours 30 minutes), you would need to convert this to 2.5 hours
+*/
+
 #include <stdio.h>
 #include <math.h>
 

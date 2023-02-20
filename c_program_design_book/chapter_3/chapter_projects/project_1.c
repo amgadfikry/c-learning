@@ -1,3 +1,13 @@
+/*
+  Write a program that calculates the distance in kilometers between two locations on the Earth. The program should first call a user-defined function
+  that displays a description of its purpose. Then it should prompt the user to enter the latitude and longitude of each lo- cation as a signed angle in
+  degrees and minutes. The distance between the two locations (s) can be calculated as
+  where r is the Earth’s radius (approximately 6365 km); (f0, l0) represents the latitude and longitude of one location; and (f1, l1) is the other location.
+  The formula assumes that lat- itudes and longitudes are in radians, with north latitudes and east longitudes being posi- tive and south latitudes and west
+  longitudes being negative. Notice that you will need to convert the latitudes and longitudes to radian values to use the formula shown. For one test,
+  calculate the distance between longitude 84° 30’ W, latitude 10° 30’N (Costa Rica) and longitude 71° 5’ W, latitude 42° 24’ N (Boston).
+
+*/
 #include <stdio.h>
 #include <math.h>
 

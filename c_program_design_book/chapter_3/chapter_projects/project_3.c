@@ -1,3 +1,8 @@
+/*
+  Write a program that computes the speed of sound (a) in air of a given temperature T (°F). Use the formula
+
+*/
+
 #include <stdio.h>
 #include <math.h>
 
